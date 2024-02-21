@@ -1,0 +1,32 @@
+CSS
+Primary Button
+border-radius: 10px;
+background: linear-gradient(180deg, #0468FF 0%, #0358D8 100%);
+box-shadow: 0px 3px 0px 0px rgba(64, 140, 255, 0.50) inset, 0px -3px 0px 0px #0047B2 inset;
+
+Text
+ - H1: 32, Bold, Roboto
+ - H2: 18, **, **
+ - Body: 18, Medium, DM Sans
+ - Caption: 14, Medium, DM Sans
+
+Button
+ - Primary
+     - Large: 25x10, 18, Bold, Roboto
+     - Small: 20x15, 18 Bold, Roboto
+ - Secondary
+
+GridCard
+GridLayout
+
+
+
+Footer
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+  @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+</style>
