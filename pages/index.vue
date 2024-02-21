@@ -227,12 +227,6 @@ onMounted(() => {
   
 
   gsapContext = gsap.context((self) => {
-    gsap.from(".hero-illustration", {
-      opacity: 0,
-      stagger: 0.5,
-      delay: 1,
-      duration: 0.5,
-    });
 
     gsap.from("h1", {
       y: 30,
