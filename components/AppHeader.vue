@@ -45,13 +45,13 @@
       <IconsMenu v-if="!menu.visible" />
       <IconsCross v-else />
     </button>
-    <NuxtLink
+    <!--<NuxtLink
       to="https://beta.lendbook.org/"
       title="Launch App"
       class="cta-wrapper <lg:hidden"
     >
       <AppButton >Launch App</AppButton>
-    </NuxtLink>
+    </NuxtLink>-->
   </div>
 </template>
 

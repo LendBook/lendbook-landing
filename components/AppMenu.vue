@@ -21,9 +21,9 @@
         </NuxtLink>
       </li>
       <li class="w-full px-20px my-12px">
-        <NuxtLink to="https://beta.lendbook.org/" title="Launch App">
+        <!--<NuxtLink to="https://beta.lendbook.org/" title="Launch App">
           <AppButton type="tertiary" small>Launch App</AppButton>
-        </NuxtLink>
+        </NuxtLink>-->
       </li>
     </ul>
   </div>
