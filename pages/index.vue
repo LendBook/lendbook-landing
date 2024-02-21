@@ -78,7 +78,7 @@
       class="lenders-trigger w-full flex flex-col items-center justify-start gap-40px default-layout-padding"
     >
       <Typo role="h1" class-name=" text-center">
-          Optimized for <span :style="{ color: '#FF8E00' }">leverage</span></Typo
+          Designed for <span :style="{ color: '#FF8E00' }">lenders</span></Typo
         >
       <GridLender />
     </section>
