@@ -44,8 +44,7 @@
             title="Documentation"
             class="text-headline font-medium mb-4px text-18px flex flex-row items-center justify-start gap-8px hover:(opacity-60 underline)"
             style="transition: all 0.3s"
-          >
-            Documentation <IconsExternalLink class="w-24px h-24px" />
+          > Documentation <IconsExternalLink class="w-24px h-24px" />
           </NuxtLink>
           <NuxtLink
             to="https://github.com/LendBook/Borrowable-limit-order-book/blob/main/lendbook_wp.pdf"
@@ -83,12 +82,14 @@
       <GridLender />
     </section>
 
-
-
-
-
-
-
+    <section
+      class="market-trigger w-full flex flex-col items-center justify-start gap-40px default-layout-padding"
+    >
+      <Typo role="h1" class-name=" text-center">
+          Built to weather <span :style="{ color: '#FF8E00' }">all market conditions</span></Typo
+        >
+      <GridMarket />
+    </section>
 
 
     <section
@@ -249,36 +250,10 @@ onMounted(() => {
       opacity: 0,
       duration: 2,
       scrollTrigger: {
-        trigger: ".cards-trigger",
+        trigger: ".up-left-leverage-feat",
         start: "top bottom",
-        end: "top+=300px center",
+        end: "top+=100px center",
         scrub: true,
-        /* markers: true, */
-      },
-    });
-
-    gsap.from(".down-left-leverage-feat", {
-      x: -100,
-      opacity: 0,
-      duration: 3,
-      scrollTrigger: {
-        trigger: ".cards-trigger",
-        start: "top bottom",
-        end: "top+=300px center",
-        scrub: 1.5,
-        /* markers: true, */
-      },
-    });
-
-    gsap.from(".down-right-leverage-feat", {
-      x: 100,
-      opacity: 0,
-      duration: 3,
-      scrollTrigger: {
-        trigger: ".cards-trigger",
-        start: "top bottom",
-        end: "top+=300px center",
-        scrub: 1.5,
         /* markers: true, */
       },
     });
@@ -288,23 +263,49 @@ onMounted(() => {
       opacity: 0,
       duration: 2,
       scrollTrigger: {
-        trigger: ".cards-trigger",
+        trigger: ".up-right-leverage-feat",
         start: "top bottom",
-        end: "top+=300px center",
+        end: "top+=100px center",
         scrub: true,
         /* markers: true, */
       },
     });
 
 
+    gsap.from(".down-left-leverage-feat", {
+      x: -100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".down-left-leverage-feat",
+        start: "top bottom",
+        end: "top+=100px center",
+        scrub: true,
+        /* markers: true, */
+      },
+    });
+
+    gsap.from(".down-right-leverage-feat", {
+      x: 100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".down-right-leverage-feat",
+        start: "top bottom",
+        end: "top+=100px center",
+        scrub: true,
+        /* markers: true, */
+      },
+    });
+
     gsap.from(".up-left-lender-feat", {
       x: -100,
       opacity: 0,
       duration: 2,
       scrollTrigger: {
-        trigger: ".cards-lender-trigger",
+        trigger: ".up-left-lender-feat",
         start: "top bottom",
-        end: "top+=300px center",
+        end: "top+=100px center",
         scrub: true,
         /* markers: true, */
       },
@@ -315,9 +316,9 @@ onMounted(() => {
       opacity: 0,
       duration: 2,
       scrollTrigger: {
-        trigger: ".cards-lender-trigger",
+        trigger: ".up-right-lender-feat",
         start: "top bottom",
-        end: "top+=300px center",
+        end: "top+=100px center",
         scrub: true,
         /* markers: true, */
       },
@@ -326,12 +327,12 @@ onMounted(() => {
     gsap.from(".down-left-lender-feat", {
       x: -100,
       opacity: 0,
-      duration: 3,
+      duration: 2,
       scrollTrigger: {
-        trigger: ".cards-lender-trigger",
+        trigger: ".down-left-lender-feat",
         start: "top bottom",
-        end: "top+=300px center",
-        scrub: 1.5,
+        end: "top+=100px center",
+        scrub: true,
         /* markers: true, */
       },
     });
@@ -339,12 +340,38 @@ onMounted(() => {
     gsap.from(".down-right-lender-feat", {
       x: 100,
       opacity: 0,
-      duration: 3,
+      duration: 2,
       scrollTrigger: {
-        trigger: ".cards-lender-trigger",
+        trigger: ".down-right-lender-feat",
         start: "top bottom",
-        end: "top+=300px center",
-        scrub: 1.5,
+        end: "top+=100px center",
+        scrub: true,
+        /* markers: true, */
+      },
+    });
+
+    gsap.from(".up-left-market-feat", {
+      x: -100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".up-left-market-feat",
+        start: "top bottom",
+        end: "top+=100px center",
+        scrub: true,
+        /* markers: true, */
+      },
+    });
+
+    gsap.from(".up-right-market-feat", {
+      x: 100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".up-right-market-feat",
+        start: "top bottom",
+        end: "top+=100px center",
+        scrub: true,
         /* markers: true, */
       },
     });

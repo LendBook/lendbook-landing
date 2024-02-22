@@ -9,7 +9,7 @@
             small
             link-title="LTV1"
             title="Earn Interest rate"
-            content="blabla"
+            content="Lenders place limit orders and receive interest on them."
             to=""
             :padding-bottom="false"
             class="up-left-lender-feat md:h-240px flex flex-col items-center justify-center gap-8px"
@@ -36,8 +36,8 @@
         <GridCard
             small
             link-title="skaha"
-            title="Choose your own risk-reward"
-            content="blabla"
+            title="Lenders control their own risk management"
+            content="Lenders choose their own risk-reward strategies"
             to=""
             :padding-bottom="false"
             class="up-right-lender-feat md:h-240px flex flex-col items-center justify-center gap-8px"
@@ -49,14 +49,14 @@
         <GridCard
             small
             link-title="ska"
-            title="your own strategies"
+            title="Profit from the price ups and downs"
             content="Implement buy the bottom - sell the top strategies"
             to=""
             :padding-bottom="false"
             class="down-right-lender-feat md:h-240px flex flex-col items-center justify-center gap-8px"
           >
             <img class="fit-image" src="/img/chess.png" alt="Balance Image" />
-            <Typo role="h2" class-name=" text-center">Harvest the price volatility</Typo>
+            <Typo role="h2" class-name=" text-center">Harvest the price <br>volatility</Typo>
         </GridCard>
       </div>
     </div>

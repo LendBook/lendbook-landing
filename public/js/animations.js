@@ -24,9 +24,9 @@ window.addEventListener("DOMContentLoaded", () => {
     opacity: 0,
     duration: 2,
     scrollTrigger: {
-      trigger: ".cards-trigger",
+      trigger: ".up-left-leverage-feat",
       start: "top bottom",
-      end: "top+=300px center",
+      end: "top+=100px center",
       scrub: true,
       /* markers: true, */
     },
@@ -35,12 +35,12 @@ window.addEventListener("DOMContentLoaded", () => {
   gsap.from(".down-left-leverage-feat", {
     x: -100,
     opacity: 0,
-    duration: 3,
+    duration: 2,
     scrollTrigger: {
-      trigger: ".cards-trigger",
+      trigger: ".down-left-leverage-feat",
       start: "top bottom",
-      end: "top+=300px center",
-      scrub: 1.5,
+      end: "top+=100px center",
+      scrub: true,
       /* markers: true, */
     },
   });
@@ -48,12 +48,12 @@ window.addEventListener("DOMContentLoaded", () => {
   gsap.from(".down-right-leverage-feat", {
     x: 100,
     opacity: 0,
-    duration: 3,
+    duration: 2,
     scrollTrigger: {
-      trigger: ".cards-trigger",
+      trigger: ".down-right-leverage-feat",
       start: "top bottom",
-      end: "top+=300px center",
-      scrub: 1.5,
+      end: "top+=100px center",
+      scrub: true,
       /* markers: true, */
     },
   });
@@ -63,9 +63,9 @@ window.addEventListener("DOMContentLoaded", () => {
     opacity: 0,
     duration: 2,
     scrollTrigger: {
-      trigger: ".cards-trigger",
+      trigger: ".up-right-leverage-feat",
       start: "top bottom",
-      end: "top+=300px center",
+      end: "top+=100px center",
       scrub: true,
       /* markers: true, */
     },
@@ -76,9 +76,9 @@ window.addEventListener("DOMContentLoaded", () => {
     opacity: 0,
     duration: 2,
     scrollTrigger: {
-      trigger: ".cards-lender-trigger",
+      trigger: ".up-left-lender-feat",
       start: "top bottom",
-      end: "top+=300px center",
+      end: "top+=100px center",
       scrub: true,
       /* markers: true, */
     },
@@ -89,9 +89,9 @@ window.addEventListener("DOMContentLoaded", () => {
     opacity: 0,
     duration: 2,
     scrollTrigger: {
-      trigger: ".cards-lender-trigger",
+      trigger: ".up-right-lender-feat",
       start: "top bottom",
-      end: "top+=300px center",
+      end: "top+=100px center",
       scrub: true,
       /* markers: true, */
     },
@@ -100,12 +100,12 @@ window.addEventListener("DOMContentLoaded", () => {
   gsap.from(".down-left-lender-feat", {
     x: -100,
     opacity: 0,
-    duration: 3,
+    duration: 2,
     scrollTrigger: {
-      trigger: ".cards-lender-trigger",
+      trigger: ".down-left-lender-feat",
       start: "top bottom",
-      end: "top+=300px center",
-      scrub: 1.5,
+      end: "top+=100px center",
+      scrub: true,
       /* markers: true, */
     },
   });
@@ -113,12 +113,38 @@ window.addEventListener("DOMContentLoaded", () => {
   gsap.from(".down-right-lender-feat", {
     x: 100,
     opacity: 0,
-    duration: 3,
+    duration: 2,
     scrollTrigger: {
-      trigger: ".cards-lender-trigger",
+      trigger: ".down-right-lender-feat",
       start: "top bottom",
-      end: "top+=300px center",
-      scrub: 1.5,
+      end: "top+=100px center",
+      scrub: true,
+      /* markers: true, */
+    },
+  });
+
+  gsap.from(".up-left-market-feat", {
+    x: -100,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger: {
+      trigger: ".up-left-market-feat",
+      start: "top bottom",
+      end: "top+=100px center",
+      scrub: true,
+      /* markers: true, */
+    },
+  });
+
+  gsap.from(".up-right-market-feat", {
+    x: 100,
+    opacity: 0,
+    duration: 2,
+    scrollTrigger: {
+      trigger: ".up-right-market-feat",
+      start: "top bottom",
+      end: "top+=100px center",
+      scrub: true,
       /* markers: true, */
     },
   });

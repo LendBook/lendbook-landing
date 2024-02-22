@@ -9,7 +9,7 @@
             small
             link-title="LTV"
             title="Enjoy high Loan-To-Value"
-            content="blabla"
+            content="Isolated market and an order book architecture allow a LTV of up to 98%."
             to=""
             :padding-bottom="false"
             class="up-left-leverage-feat md:h-240px flex flex-col items-center justify-center gap-8px"
@@ -21,7 +21,8 @@
             small
             link-title="liquidation"
             title="Enjoy liquidation"
-            content="blabla"
+            content="Benefit from the lowest liquidation costs on the market !
+            In LendBook, there are 2 types of liquidations : Price-based liquidation, and Interest-based liquidation"
             to=""
             :padding-bottom="false"
             class="down-left-leverage-feat md:h-240px flex flex-col items-center justify-center gap-8px"
@@ -37,7 +38,7 @@
             small
             link-title="leverage"
             title="Enjoy high Leverage"
-            content="blabla"
+            content="LendBook enables leverage factors a magnitude higher than what other lending protocols offer."
             to=""
             :padding-bottom="false"
             class="up-right-leverage-feat md:h-240px flex flex-col items-center justify-center gap-8px"
@@ -48,8 +49,9 @@
         <GridCard
             small
             link-title="debt"
-            title="Enjoy debt management"
-            content="blabla"
+            title="Enjoy simple debt management"
+            content="By borrowing from limit orders, borrowers program in advance the price at which they will be liquidated. 
+            This allows borrowers to set up stop-loss and take-profit strategies."
             to=""
             :padding-bottom="false"
             class="down-right-leverage-feat md:h-240px flex flex-col items-center justify-center gap-8px"
