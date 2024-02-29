@@ -13,7 +13,7 @@ export const NavConfigs = [
     },
     {
         name: "Blog",
-        to: "https://mirror.xyz/0x883CfB4b284951C8CfF4674a227C73B13E8934D8",
+        to: "https://mirror.xyz/0x5f700475B8CeBF95E95AD1E6eAFBa6324C8f9c6e",
     },
     {
         name: "Documentation",
